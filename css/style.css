@@ -7,17 +7,10 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-/*
-@media (min-width: 1200px) {
-  body {
-    background-position: center 220%;
-  }
-}
-*/
 
 .container {
-  background-color: none;
-  background-color: rgba(255,255, 255, 0.4);
+  /*background-color: none;
+  background-color: rgba(255,255, 255, 0.4);*/
 }
 
 
@@ -25,6 +18,20 @@ table.noborder td,
 table.noborder th {
   border: none;
 } 
+/*
+#page {
+  background: #fff;
+}
+*/
+#page {
+  background-image:
+    linear-gradient(
+      to bottom, 
+      rgba(255,255,255,0.45),
+      rgba(255,255,255,0.45) 95%,
+      rgba(255,255,255,0) 100%
+  );
+}
 
 .block-header h1 {
   max-width: 200px;
