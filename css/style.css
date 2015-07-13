@@ -15,6 +15,12 @@ body {
 }
 */
 
+.container {
+  background-color: none;
+  background-color: rgba(255,255, 255, 0.4);
+}
+
+
 table.noborder td, 
 table.noborder th {
   border: none;
@@ -33,6 +39,7 @@ table.noborder th {
 }
 .block-contact table {
   width: 100%;
+  margin: 0;
 }
 .block-contact .label {
   font-weight: bold;
