@@ -1,0 +1,74 @@
+html {
+  font-family: "Merriweather", "Times New Roman", serif; 
+}
+
+
+body {
+}
+
+.container {
+  /*background-color: none;
+  background-color: rgba(255,255, 255, 0.4);*/
+}
+
+
+table.noborder td, 
+table.noborder th {
+  border: none;
+} 
+/*
+#page {
+  background: #fff;
+}
+*/
+
+
+#header {
+  background-image:
+    linear-gradient(
+      to bottom, 
+      rgba(255,255,255,0.45),
+      rgba(255,255,255,0.45) 95%,
+      rgba(255,255,255,0) 100%
+  );
+}
+
+#main {
+  padding-top: 6.0rem;
+  font-size: 1.6rem;
+}
+
+#footer {
+  width: 100vw;
+  height: 30vw;
+  background: url(../img/page_bg_bottom.jpg) no-repeat center 100%;
+  background-size: cover;
+}
+
+.block-header h1 {
+  max-width: 200px;
+}
+.block-header img {
+  display: block;
+  width: 100%;
+}
+
+.block-contact {
+  text-shadow: 0 0 4px #fff;
+}
+.block-contact table {
+  width: 100%;
+  margin: 0;
+}
+.block-contact .label {
+  font-weight: bold;
+}
+.block-contact a {
+  color: #000;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
