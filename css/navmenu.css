@@ -328,14 +328,44 @@ img.full{
     text-align: center;
 }
 
-.people h4 {
-    text-align: center;
-}
-
 .people h5 {
     text-align: center;
 }
 
 .people p {
 	text-align: justify;
+}
+
+.people img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.left h4 {
+    text-align: left;
+	position: absolute;
+    /*left: 30px;*/
+    padding: 20px;
+}
+
+.left img {
+	position: absolute;
+    left: 30px;
+    width: 40px;
+    padding: 20px;
+}
+
+.right h4 {
+    text-align: right;
+	position: absolute;
+    /*right: 30px;*/
+    padding: 20px;
+}
+
+.right img {
+	position: absolute;
+    right: 30px;
+    width: 40px;
+    padding: 20px;
 }
