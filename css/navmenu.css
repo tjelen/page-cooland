@@ -193,7 +193,7 @@
 .carousel__wrap{
 	position:relative;
 	display:block;
-	width:100%;
+	width:80%;
 	height:100%;
 	overflow:hidden;
 	margin:0}
@@ -321,3 +321,21 @@ img.full{
 .split--8{width:12.5%}
 .split--9{width:11.11111111111111%}
 .split--10{width:10%}
+
+
+/*zarovnani na stred u jednotlivych profilu*/
+.people h3 {
+    text-align: center;
+}
+
+.people h4 {
+    text-align: center;
+}
+
+.people h5 {
+    text-align: center;
+}
+
+.people p {
+	text-align: justify;
+}
