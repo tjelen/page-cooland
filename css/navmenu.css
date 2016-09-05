@@ -369,3 +369,8 @@ img.full{
     width: 40px;
     padding: 20px;
 }
+
+.vernisaz img {
+	width: inherit;
+}
+}
