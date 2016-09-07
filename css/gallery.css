@@ -17,6 +17,7 @@ div.img img {
 div.desc {
     padding: 15px;
     text-align: center;
+    margin-bottom:20px;
 }
 
 * {
@@ -75,9 +76,6 @@ div.desc {
     clear: both;
 }
 
-div.top_gallery {
-   margin-bottom:20px;
-}
 
 /* zoom efekt */
 
