@@ -75,6 +75,10 @@ div.desc {
     clear: both;
 }
 
+.top_gallery {
+   margin-bottom:10;
+}
+
 /* zoom efekt */
 
 * {
