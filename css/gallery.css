@@ -111,9 +111,11 @@ div.desc {
 }
 
 .responsive5 {
-    padding: 0 6px;
-   /* float: left;*/
+    /*padding: 0 6px;
+   float: left;*/
     width: 49.99999%;
+    display: block;
+    margin: auto;
     
 /*	width: 24.99999%; */
 }
@@ -122,13 +124,17 @@ div.desc {
 @media only screen and (max-width: 700px){
     .responsive5 {
         width: 49.99999%;
-        margin: 6px 0;
+        display: block;
+        margin: auto;
+
     }
 }
 
 @media only screen and (max-width: 500px){
-    .responsive6 {
+    .responsive5 {
         width: 100%;
+        display: block;
+        margin: auto;
     }
 }
 
