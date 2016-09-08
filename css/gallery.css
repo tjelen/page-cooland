@@ -25,9 +25,9 @@ div.desc {
 
 .responsive {
     padding: 0 6px;
-    display:flex;
-/*    float: left; */
+    float: left;
     width: 33.33333%;
+    
 /*	width: 24.99999%; */
 }
 
