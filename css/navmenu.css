@@ -373,3 +373,7 @@ img.full{
 .vernisaz img {
 	width: inherit;
 }
+
+.text_justify p {
+	text-align: justify;
+}
